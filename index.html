@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Escape Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🗝 Digital Escape Room</h1>
+  <p>Solve puzzles to escape the room!</p>
+</header>
+
+<section class="game">
+  <div id="puzzleArea">
+    <h2 id="puzzleQuestion">Welcome! Click start to begin your escape.</h2>
+    <input type="text" id="answerInput" placeholder="Enter your answer">
+    <button id="submitAnswer">Submit</button>
+    <button id="startGame">Start Game</button>
+  </div>
+  <p id="feedback"></p>
+  <p id="timer">Time Left: 05:00</p>
+</section>
+
+<section class="stats">
+  <h2>Stats</h2>
+  <p>Puzzles Solved: <span id="puzzlesSolved">0</span></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
